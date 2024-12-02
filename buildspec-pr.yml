@@ -9,4 +9,4 @@ phases:
   build:
     commands:
       - npm install --loglevel=error
-      echo tudo certo até aqui
+      echo tudo certo até aqui com new pr
