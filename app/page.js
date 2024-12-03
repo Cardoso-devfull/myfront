@@ -1,3 +1,9 @@
+"use client"
+import { useContext } from 'react'
+import  { AppContext } from './config/AppContext'
+
 export default function Page() {
-    return <h1>Hello, myfront!</h1>
+  const {user} = useContext(AppContext);
+
+    return <h1>Hello, {user}!</h1>
 }
